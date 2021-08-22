@@ -58,6 +58,7 @@ body{
     margin: auto;
     padding-top: 54px;
     display: flex;
+    padding-bottom: 100px;
 }
 .main-info{
     flex-grow: 1; /*Позволяет занять все свободное место*/
@@ -205,4 +206,60 @@ path.current-floor{
     cursor: pointer;
     border: none;
     background-color: #FFF;
+}
+.footer{
+    background-color: #D7D7D7;
+    border-top: 4px solid #3596F5;
+    padding: 50px 0 56px 0;
+}
+.footer-inside{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+}
+.logo_bottom{
+    margin-right: 37px;
+}
+.footer-contacts{
+    text-align: left;
+    margin-right: 59px;
+}
+.footer-text{
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #635854;
+}
+.footer-phone{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #635854;
+    text-decoration: none;
+}
+.social-link{
+    margin-right: 15px;
+}
+.social-link:hover {
+    position: relative;
+    top: -10px;
+}
+.document-link{
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #635854;
+    margin-right: 20px;
+
+}
+.document-link:last-child{
+    margin: 0;
 }
